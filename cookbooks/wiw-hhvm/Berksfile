@@ -1,0 +1,6 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'hhvm', '~> 0.6.0'
+cookbook 'logrotate', '~> 1.9.2'
