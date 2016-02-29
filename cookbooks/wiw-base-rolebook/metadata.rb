@@ -1,0 +1,7 @@
+name             'wiw-base-rolebook'
+maintainer       'Brian Oldfield'
+maintainer_email 'brian+wiw@oldfield.io'
+license          'All rights reserved'
+description      'Base instance role'
+long_description 'Base instance role'
+version          '0.1.0'

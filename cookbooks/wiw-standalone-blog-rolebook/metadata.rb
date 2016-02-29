@@ -1,0 +1,12 @@
+name             'wiw-standalone-blog-rolebook'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures wiw-standalone-blog-rolebook'
+long_description 'Installs/Configures wiw-standalone-blog-rolebook'
+version          '0.1.0'
+
+depends 'wiw-nginx'
+depends 'wiw-hhvm'
+depends 'wiw-mysql'
+depends 'wiw-blog'
