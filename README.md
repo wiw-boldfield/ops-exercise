@@ -18,8 +18,8 @@ $ kitchen converge
 
 The following ports will be forwarded from the host machine to the guest:
 
-(host) 8080 -> (guest) 80
-(host) 4430 -> (guest) 443
+- (host) 8080 -> (guest) 80
+- (host) 4430 -> (guest) 443
 
 Once started, final installation of the wordpress blog will be waiting for you to [complete](https://localhost:4430)!
 
