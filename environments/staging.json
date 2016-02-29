@@ -1,0 +1,7 @@
+{
+  "name": "staging",
+  "description": "Staging environment, no version locking here",
+  "cookbook_versions": {},
+  "json_class": "Chef::Environment",
+  "chef_type": "environment"
+}

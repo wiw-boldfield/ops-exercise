@@ -1,0 +1,10 @@
+{
+  "name": "standalone-blog",
+  "description": "Sets up a standalone blog server",
+  "run_list": [
+    "recipe[wiw-base-rolebook]",
+    "recipe[wiw-standalone-blog-rolebook]"
+  ],
+  "json_class": "Chef::Role",
+  "chef_type": "role"
+}

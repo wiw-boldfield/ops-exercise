@@ -1,0 +1,14 @@
+{
+  "name": "production",
+  "description": "Production environment",
+  "cookbook_versions": {
+    "wiw-nginx": "= 0.1.0",
+    "wiw-hhvm": "= 0.1.0",
+    "wiw-mysql": "= 0.1.0",
+    "wiw-blog": "= 0.1.0",
+    "wiw-base-rolebook": "= 0.1.0",
+    "wiw-standalone-blog-rolebook": "= 0.1.0"
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment"
+}
