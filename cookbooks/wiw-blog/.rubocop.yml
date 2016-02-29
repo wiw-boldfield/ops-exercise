@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - Vagrantfile
+    - Berksfile
+
+Metrics/LineLength:
+  Max: 90

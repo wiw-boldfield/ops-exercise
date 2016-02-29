@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  require_chef_omnibus: 12.7.2
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list:
+        - "recipe[apt]"
+        - "recipe[wiw-blog]"
+    attributes:
+      wiw_blog:
+        domain: 'blog.wheniwork.com'
+        ssl_vault: 'wiw-blog'
+      wiw_mysql:
+        password_vault: 'mysql'
+        tablename: 'wiw'
+        username: 'wiw'
